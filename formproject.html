@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+           <div class="contact-left-title">
+            <h2>type a mail for Asneha</h2>
+            <hr>
+           </div>
+           <input type="hidden" name="access_key" value="915570a3-08ea-428a-8b24-28b63cc66d63">
+
+           <input type="text" name="Name" placeholder="Your Name" class="Contact-inputs" required>
+           <input type="email" name="email" placeholder="Your Email" class="Contact-inputs" required>
+           <textarea name="message" placeholder="Type Your Message" class="Contact-inputs" required></textarea>
+           <button type="submit">Submit <img src="imgs/arrow_icon.png" alt=""></button>
+        </form>
+        <div class="contact-right">
+            <img src="imgs/right_img.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
